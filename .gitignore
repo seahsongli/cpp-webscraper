@@ -1,0 +1,57 @@
+# Ignore files in the root cpp-webscraper folder
+# Ignore the cpp-webscraper build directory
+/cpp-webscraper/build/
+/cpp-webscraper/src/  # Ignore source directory if needed
+
+# General C++ files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.exe
+*.out
+*.app
+
+# CMake files
+/cpp-webscraper/CMakeFiles/
+/cpp-webscraper/CMakeCache.txt
+/cpp-webscraper/cmake_install.cmake
+/cpp-webscraper/Makefile
+/cpp-webscraper/compile_commands.json
+/cpp-webscraper/Testing/
+cpp-webscraper/CTestTestfile.cmake
+
+# Visual Studio files
+/cpp-webscraper/.vs/
+/cpp-webscraper/*.VC.db
+/cpp-webscraper/*.VC.VC.opendb
+/cpp-webscraper/x64/
+cpp-webscraper/x86/
+cpp-webscraper/*.pdb
+cpp-webscraper/*.ilk
+cpp-webscraper/*.exp
+cpp-webscraper/*.idb
+cpp-webscraper/*.ipdb
+cpp-webscraper/*.iobj
+
+# Visual Studio Code files
+/cpp-webscraper/.vscode/
+
+# JetBrains IDE files
+/cpp-webscraper/.idea/
+
+# macOS
+/cpp-webscraper/.DS_Store
+
+# Windows
+/cpp-webscraper/Thumbs.db
+
+# Backup and temporary files
+/cpp-webscraper/*~
+/cpp-webscraper/*.bak
+/cpp-webscraper/*.tmp
+/cpp-webscraper/*.swp
+/cpp-webscraper/*.log
